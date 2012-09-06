@@ -9,4 +9,4 @@ Having worked on several different projects with several different teams, there 
 
 ## Participation is SUPER-Welcomed!
 
-This is your chance to promote universal action regarding your favorite pet peeve! Make your voice heard! You can either fork or issue pull requests, even cloning the wiki git url and editing with your favorite Markdown editor. If you don't feel like doing all that, feel free to just create an issue with your suggestions. We look forward to hearing from you!
+This is your chance to promote universal action regarding your favorite pet peeve! Make your voice heard! You can either fork or issue pull requests, even cloning the [Wiki repository](https://github.com/A-frame/coding-standards.wiki.git) and editing with your favorite Markdown editor. If you don't feel like doing all that, feel free to just create an issue with your suggestions. We look forward to hearing from you!
