@@ -1,7 +1,5 @@
 Welcome to the coding-standards wiki!
 
-Welcome!
-
 ## Overview
 This is a collection of **best practices** intended to be useful for career programmers and independent freelancers. There is a focus here on C#, but some concepts, such as "A function does one thing" (from Uncle Bob's _Clean Code_) can translate to a hundred different languages.
 
