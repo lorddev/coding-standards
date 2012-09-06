@@ -8,4 +8,5 @@
 ## Ajax considerations
 Regarding the use of Ajax loading indicators:
   1. Your goal should be to maintain a level of speed that makes indicators unnecessary. However, "Plan on using some sort of animation if the action takes longer than 1s." —[Stack Overflow](http://stackoverflow.com/a/536318/16454)
+  2. When you do need to use an indicator, use an HTML5 Canvas or Raphael.js SVG library instead of an animated gif. Gifs are pixelated, and don't look so great with the new "retina" displays or zoomable browsers.
   2. Some websites use a fade layer beneath an indicator to make the indicator  stand out better and prevent secondary input while the other operation is completing. We should avoid situations that would lock down on the user in such a way. Users don't like being corralled like that. The exception would be modal dialogs, but they should be used appropriately, as in where the input being requested would actually change the application's mode.
