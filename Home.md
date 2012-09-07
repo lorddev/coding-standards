@@ -1,6 +1,5 @@
 Welcome to the Coding Standards Wiki (CSW)!
 
-## Overview
 This is a collection of **best practices** intended to be useful for career programmers and independent freelancers. There is a focus here on C#, but some concepts, such as "A function does one thing" (from Uncle Bob's _Clean Code_) can translate to a hundred different programming languages.
 
 Having worked on several different projects with several different teams, there are certain best practices that can be identified that would apply to all projects. The goal here will not be to water down to the lowest common denominator, but to steer towards a level of cleanliness that encourages innovation and facilitates maintenance and readability.
@@ -9,7 +8,7 @@ It is acknowledged that some people have different preferences, say, on the nami
 
 ### Language-specific
 
-- JavaScript
+- [JavaScript](https://github.com/A-frame/coding-standards/wiki/JavaScript)
 
 ## Your Participation Is Requested!
 
