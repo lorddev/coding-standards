@@ -6,6 +6,6 @@ ReSharper will tell you to document everything. However, if you are properly nam
     /// </summary>
     public long AccountId { get; set; }
 
-Really?
+_Really?_
 
 I'd recommend going into your ReSharper/StyleCop settings and turning off the most of the items in the Documentation area. This is also consistent with the recommendations provided by Robert C. Martin In _Clean Code._
