@@ -4,8 +4,7 @@ In the last 8 years since the introduction of Ajax, I have witnessed an massive 
 ## Treat Your Functions Like Objects
 JSON provides a nice bridge for understanding JavaScript code blocks in an object-oriented manner. Just as we avoid repeating code and multiple classes per file in our C# code, we should do the same with our JavaScript. Functions nested inside other functions can become private methods. They can be exposed as public methods using the `this` keyword, e.g.
 
-    function OrientedObject(newId)
-    {
+    function OrientedObject(newId) {
         var _id = newId;
         this.publicMethod = function() {
             return _id;
