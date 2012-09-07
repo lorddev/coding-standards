@@ -7,6 +7,10 @@ Having worked on several different projects with several different teams, there 
 
 It is acknowledged that some people have different preferences, say, on the naming of private members. But there are broader issues which can impact your ability to collaborate with others in a big way. It is practically a crime to leave your code in such a level of disarray under the assumption that you'll either clean it up later or always be the only one dealing with it&emdash;and then when another developer has to patch in an enhancement or find a bug, they could spend so much time trying to unravel it or read it that they might as well have started over from scratch. That is something all developers should try to avoid. No developer is an island. Your code should reflect an understanding of that. See Jeff Atwood on [Paying Down Technical Debt](http://www.codinghorror.com/blog/2009/02/paying-down-your-technical-debt.html).
 
+### Language-specific
+
+- JavaScript
+
 ## Your Participation Is Requested!
 
 The built-in Markdown compatibility and Git versioning make GitHub an ideal place for such a project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
