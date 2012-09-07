@@ -9,7 +9,7 @@ It is acknowledged that some people have different preferences, say, on the nami
 
 ## Your Participation Is Requested!
 
-The built-in Markdown compatibility and Git versioning make it an ideal place for such a project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
+The built-in Markdown compatibility and Git versioning make GitHub an ideal place for such a project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
 
 This is your chance to promote universal action regarding your favorite pet peeve! Make your voice heard! Maybe we can start something here and have the kind of effect that would help educate people around the world and reduce the frequency of messy spaghetti code we'll encounter in the future!
 
