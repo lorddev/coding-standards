@@ -1,5 +1,5 @@
 # Overview
-- ## [[Home]]
+- [[Home]]
 
 # Standards
 - To-do
