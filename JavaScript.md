@@ -26,7 +26,7 @@ Per [Encosia benchmarks](http://encosia.com/11-keystrokes-that-made-my-jquery-se
 
      $('input[id$=txtInput]');
 
-This is so much friendlier than using server-side `ClientScriptManager.RegisterClientScriptBlock` methods.
+This is so much friendlier than using server-side `ClientScriptManager.RegisterClientScriptBlock()` methods.
 
 Obviously you need to be aware of which HTML object each control translates to (e.g. LinkButton = `<a/>`, Button = `<input/>`, DropDownList = `<select/>`, Multiline Textbox = `<textarea/>`).
 
