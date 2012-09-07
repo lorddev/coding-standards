@@ -1,11 +1,11 @@
-# Overview
+## Overview
 - [[Home]]
 
-# Standards
+## Standards
 - To-do
 
-# Practices
+## Practices
 - [[Best Practices]]
 
-# Style
+## Style
 - [[JavaScript]]
