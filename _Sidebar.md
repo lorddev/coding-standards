@@ -6,6 +6,7 @@
 
 ## Practices
 - [[Best Practices]]
+- [[Recommended Practices]]
 
 ## Style
 - [[JavaScript]]
