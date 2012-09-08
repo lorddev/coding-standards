@@ -24,3 +24,10 @@
 
 ## Code Formatting
 1. Always use curly braces for conditional statements. Never take the one-liner shortcut, or the one subline shortcut, as they are both vague.
+2. Avoid ternary operators unless the statements are very short and easily readable, e.g.
+
+    ```c#
+    // This is ok.
+    return isIdSpecified ? id : GetNewId();
+    ```
+3. Avoid nested ternary operators.
