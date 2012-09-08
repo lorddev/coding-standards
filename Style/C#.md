@@ -8,8 +8,19 @@
 8. Always use correct spelling and grammar in names, variables, comments, and database design.
 9. Do not use abbreviations, either in object or method names, variables, or namespaces.
 10. Use of well-known acronyms is permitted, but follow Microsoft's rules for capitalization.
-      1.sdfg
-      2.asdf
+      1. When used in PascalCasing or as the second word in camelCasing, only the first letter of an acronym should be capitalized.
+
+      ```c#
+      using System.Data.Sql;
+      using System.Linq;
+      ```
+      2. Always capitalize both letters in two-letter acronyms.
+      
+      ```c#
+      using System.IO;
+      using System.Web.UI.WebControls;
+      ```
+      2. With the exception of the `Control` class and all objects that inherit from it, only the “I” in `Id` should be capitalized, as it is an _abbreviation_ for “identity” or “identifier” and not an actual acronym.
 
 ## Code Formatting
 7. Maintain indentation standards. This is crucial to readable code. Always use spaces instead of tabs. Default setting is 4 spaces, and this should be kept if possible, so as to remain compatible with other teams. However, some houses have adopted the 2-space standard because their code-base was created in the days of smaller screens and before people learned to write proper functions. (cref. “Functions should do one thing”)
