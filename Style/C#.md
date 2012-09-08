@@ -11,7 +11,7 @@
 	2. Property declarations, whether automatic properties or simple getters/setters direct to private members.
 10. Curly braces for delegates, collections, or object initializers should be indented 4 spaces (ME). Other specifications say differently, but following those specifications would require reformatting your indents every time you change a type or variable name, or even switch to `var` instead of explicit type declarations.
 
-    ``` C#
+    ```c#
      var sqlParameters = new[]
         {
             new SqlParameter("@accountId", accountId),
