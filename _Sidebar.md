@@ -11,3 +11,4 @@
 ## Style
 - [Introduction](Why-a-Style-Guide-that%27s-not-Project-Specific%3F)
 - [[JavaScript]]
+- [[ReSharper]]
