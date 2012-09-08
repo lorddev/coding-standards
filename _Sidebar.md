@@ -2,7 +2,7 @@
 - [[Home]]
 
 ## Standards
-- To-do
+- [C#](Standards/C%23)
 
 ## Practices
 - [[Best Practices]]
@@ -10,6 +10,6 @@
 
 ## Style
 - [Introduction](Why-a-Style-Guide-that%27s-not-Project-Specific%3F)
-- [C#](C%23)
+- [C#](Style/C%23)
 - [[JavaScript]]
 - [[ReSharper]]
