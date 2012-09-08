@@ -12,13 +12,13 @@
 10. Curly braces for delegates, collections, or object initializers should be indented 4 spaces (ME). Other specifications say differently, but following those specifications would require reformatting your indents every time you change a type or variable name, or even switch to `var` instead of explicit type declarations.
 
     ```c#
-     var sqlParameters = new[]
+    var sqlParameters = new[]
         {
             new SqlParameter("@accountId", accountId),
             new SqlParameter("@loginSource", ipAddress),
         };
-     using (var sqlCommand = new DataAccessObject())
-     {
+    using (var sqlCommand = new DataAccessObject())
+    {
         sqlCommand.FillObject(sqlParameters, delegate(IDataReader reader)
             {
                 while (reader.Read())
@@ -26,7 +26,7 @@
                     // Todo: Put code here.
                 }
             });
-     }
+    }
     ```
 
 11. Omit parenthesis when using object initializers, e.g. `var message = new Literal { ID = "Message" };`
