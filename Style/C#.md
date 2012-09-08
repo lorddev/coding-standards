@@ -1,11 +1,15 @@
 ## Naming Conventions
 1. Type names, constants and method names should use Pascal casing.
 2. Camel casing applies to local variables declared inside a method, and arguments or parameters used in method declarations or constructors.
-3. Hungarian notation should not be used. There has historically been some flexibility in terms of referencing server-side control IDs in ASP.NET. However, since these items are renamed by the ASP.NET engine and can be referenced using the recommended jQuery selectors, use of these prefixes can just be confusing (e.g. `txt_UserName` and `btn_Submit` render as  `<input type="text"/>` and `<input type="submit"/>` on the client-side.)
+3. Hungarian notation should not be used. There has historically been some flexibility in terms of referencing server-side control IDs in ASP.NET. However, since these items are renamed by the ASP.NET engine and can be referenced using the [recommended jQuery selectors](JavaScript), use of these prefixes can be confusing (e.g. `txt_UserName` and `btn_Submit` render as  `<input type="text"/>` and `<input type="submit"/>` on the client-side.)
 4. Method names should be verbs (optionally followed a direct object), as they describe an action, e.g. `stringReader.ReadLine()`.
-5. Always use C# alias types (`string`, `int`, etc.). Some have said to use the .NET types (`System.String`, `System.Int32`, etc.) when calling static methods (like `Int32.Parse()`), but recent trends and tools discourage this.
-6. Namespaces —> Use Microsoft spec
+5. Always use **C#** alias types (`string`, `int`, etc.). Some have said to use the .NET types (`System.String`, `System.Int32`, etc.) when calling static methods (like `Int32.Parse()`), but recent trends and tools discourage this.
+6. Namespaces should be well thought-out and professional, following the methods used by Microsoft `Company.Product.Layer.Specialization` (e.g. `System.Web.UI.WebControls`)
 8. Always use correct spelling and grammar in names, variables, comments, and database design.
+9. Do not use abbreviations, either in object or method names, variables, or namespaces.
+10. Use of well-known acronyms is permitted, but follow Microsoft's rules for capitalization.
+      1.sdfg
+      2.asdf
 
 ## Code Formatting
 7. Maintain indentation standards. This is crucial to readable code. Always use spaces instead of tabs. Default setting is 4 spaces, and this should be kept if possible, so as to remain compatible with other teams. However, some houses have adopted the 2-space standard because their code-base was created in the days of smaller screens and before people learned to write proper functions. (cref. “Functions should do one thing”)
