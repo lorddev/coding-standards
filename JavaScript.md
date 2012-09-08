@@ -4,6 +4,7 @@ In the last 8 years since the introduction of Ajax, I have witnessed an massive 
 ## Treat Your Functions Like Objects
 JSON provides a nice bridge for understanding JavaScript code blocks in an object-oriented manner. Just as we avoid repeating code and multiple classes per file in our C# code, we should do the same with our JavaScript. Functions nested inside other functions can become private methods. They can be exposed as public methods using the `this` keyword, e.g.
 
+    ```javascript
     function OrientedObject(newId) {
         var _id = newId;
         this.publicMethod = function() {
@@ -13,6 +14,7 @@ JSON provides a nice bridge for understanding JavaScript code blocks in an objec
     
     var oriented = new OrientedObject(123);
     alert(oriented.publicMethod());
+    ```
 
 ## Import your references
 The `$.cachedScript()` example in [jQuery’s documentation](http://api.jquery.com/jQuery.getScript/) is a great example of how we can make sure our code dependencies are loaded at the top of a file, just as we do so in our C# code.
