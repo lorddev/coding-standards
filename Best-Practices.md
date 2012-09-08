@@ -1,5 +1,5 @@
 1. A function should *do one thing.* This applies whether you're using C# or JavaScript.
-2. Do not abbreviate variable names, properties, fields, functions, etc. Exceptions include CMS (`CmsPage`).
+2. Do not abbreviate variable names, properties, fields, functions, etc. Exceptions include acronyms for well-known items, such as CMS (`CmsPage`).
 3. Use most recommendations made by ReSharper and StyleCop. Ignore most suggestions regarding documentation, per the book _Clean Code_, which says such things are redundant if you name your functions appropriately.
 
 ## Ajax considerations
