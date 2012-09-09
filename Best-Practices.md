@@ -1,5 +1,9 @@
 1. A function should *do one thing.* This applies whether you're using C# or JavaScript.
 3. Use most recommendations made by ReSharper and StyleCop. Ignore most suggestions regarding documentation, per the book _Clean Code_, which says such things are redundant if you name your functions appropriately.
+3. Dispose of _everything_ that implements **IDisposable** by wrapping with a `using { ... }` block.
+4. Declare your variables as close to their first usage as possible. _Do not declare all your local variables at the top of a method._
+5. Acquire a resource as late as possible, release it as soon as its safe.
+6. Combining the previous two recommendations means you need to be aware of "deferred execution." If you are using **LinqToSql** to connect to your database, return your result set as an `ICollection<T>` or `IList<T>` instead of `IEnumerable<T>` and `IQueryable<T>`, or you will encounter errors if your data context is disposed [cref](http://stackoverflow.com/a/3894849/16454).
 
 ## Ajax considerations
 Regarding the use of Ajax loading indicators:
