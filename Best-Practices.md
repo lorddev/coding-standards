@@ -15,3 +15,6 @@ Regarding the use of Ajax loading indicators:
 1. With Git's built-in branching, forking, and merging capabilities, you no longer have to have separate "trunk", "branches", or "tags" folders under your main repository. So just put your product's projects in the root.
 2. When appropriate, reference issue numbers when you check in to GitHub. You can tag an issue using the pound sign followed by the number of the issue. Keywords “fixed/fixes” and “closed/closes” preceding the issue number will immediately change the issue’s status.
 3. Corollary is this: Don't use the hash symbol when itemizing lists in wikis or issue comments, e.g. `#1 do this, and #2 do that`, as that will create unintended hyperlinks to the issues identified by those numbers.
+
+## Use Code Metrics
+Code metrics were introduced in Visual Studio 2008. Prior to that you had to use tools like SourceMonitor to get your metrics. Not all Visual Studio packages come with code metrics, so if yours doesn't, you can install the [extensions](http://visualstudiogallery.msdn.microsoft.com/9f35524b-a784-4dbc-bd7b-6babd7a5a3b3) for free.
