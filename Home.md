@@ -6,10 +6,6 @@ I don't know about you, but I'm the kind of developer who always wants to get be
 
 We want to differentiate between those things people do out of habit, and those things people do because it's a pattern they learned, and there's a reason for doing it that way. It is acknowledged that some people have different preferences&mdash;say, on how or whether to prefix private members. But there are broader issues which can impact your ability to collaborate with others in a big way. It is practically a crime to leave your code in such a level of disarray under the assumption that you'll either clean it up later or always be the only one dealing with it&mdash;and then when another developer has to patch in an enhancement or find a bug, they could spend so much time trying to unravel it or read it that they might as well have started over from scratch. That is something all developers should try to avoid. No developer is an island. Your code should reflect an understanding of that. See Jeff Atwood on [Paying Down Technical Debt](http://www.codinghorror.com/blog/2009/02/paying-down-your-technical-debt).
 
-### Language-specific
-
-- [JavaScript](https://github.com/A-frame/coding-standards/wiki/JavaScript)
-
 ## Your Participation Is Requested!
 
 The built-in Markdown compatibility and Git versioning make GitHub an ideal place for such a project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
