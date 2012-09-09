@@ -9,9 +9,8 @@ We want to differentiate between those things people do out of habit, and those 
 ### No developer is an island.
 Your code should reflect an understanding of that. **Write code that you wouldn't be embarrassed about if your favorite nerd hero saw your last check-in.** It is practically a crime to leave your code in such a level of disarray under the assumption that you'll either clean it up later or always be the only one dealing with it. That's called [technical debt](http://www.codinghorror.com/blog/2009/02/paying-down-your-technical-debt). If another developer has to patch in an enhancement or find a bug, you don't want them to spend so much time trying to unravel spaghetti code that they might as well have started from scratch.
 
-## Your Participation Is Requested!
-
-The built-in Markdown compatibility and Git versioning make GitHub an ideal place for such a project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
+## The honor of your participation is requested...
+The built-in Markdown compatibility and Git versioning make GitHub an ideal place for a collaborative standards project, as well as the wide adoption of GitHub itself by open-source programmers. If you search for "coding standards" on GitHub, there are only a few repositories, and they are pretty much project-specific, so it's a wide-open "market" of sorts.
 
 This is your chance to promote universal action regarding your favorite pet peeve! Make your voice heard! Maybe we can start something here and have the kind of effect that would help educate people around the world and reduce the frequency of messy spaghetti code we'll encounter in the future!
 
