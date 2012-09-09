@@ -24,13 +24,11 @@ It seems every year or so, Microsoft decides to arbitrarily change their naming 
 
 Although you can force your site to use a certain method via configuration settings, [I recommend](http://mustfollow.wordpress.com/2012/08/12/optimizing-jquery-selectors-for-asp-net-controls/) future-proofing your jQuery selectors.
 
-Per [Encosia benchmarks](http://encosia.com/11-keystrokes-that-made-my-jquery-selector-run-10x-faster/), for a server-side TextBox control, the recommended method is to use the "ends-with" (`$=`) selector, in combination with the tagName, e.g.
+Per [Encosia benchmarks](http://encosia.com/11-keystrokes-that-made-my-jquery-selector-run-10x-faster/), for a server-side TextBox control, the recommended method is to use the "ends-with" (`$=`) selector, in combination with the tagName, e.g. `$('input[id$=txtInput]');`
 
-     $('input[id$=txtInput]');
-
-This is so much friendlier than using server-side `ClientScriptManager.RegisterClientScriptBlock()` methods.
+This is so much friendlier than using the server-side `ClientScriptManager.RegisterClientScriptBlock()` methods.
 
 Obviously you need to be aware of which HTML object each control translates to (e.g. LinkButton = `<a/>`, Button = `<input/>`, DropDownList = `<select/>`, Multiline Textbox = `<textarea/>`).
 
-## Nest Your page-specific JS files underneath the .aspx
+## Consider nesting your page-specific JS files underneath the .aspx
 By editing your .csproj files manually, you can set the `<DependsUpon/>` tag to force your page-specific .js files to nest underneath your .aspx files just as your .cs and .designer.cs files do. This is good design for page-specific scripts as it keeps everything together in your Solution Explorer.
