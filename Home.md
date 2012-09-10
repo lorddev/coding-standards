@@ -14,7 +14,7 @@ The built-in Markdown compatibility and Git versioning make GitHub an ideal plac
 
 This is your chance to promote universal action regarding your favorite pet peeve! Make your voice heard! Maybe we can start something here and have the kind of effect that would help educate people around the world and reduce the frequency of messy spaghetti code we'll encounter in the future!
 
-You can either fork and issue pull requests, cloning the [Wiki repository](https://github.com/A-frame/coding-standards.wiki.git) and editing with your favorite Markdown editor. If you don't feel like doing all that, feel free to just create an issue with your suggestions. We look forward to hearing from you!
+You can either fork and issue pull requests, cloning the [Wiki repository](https://github.com/lorddev/coding-standards.wiki.git) and editing with your favorite Markdown editor. If you don't feel like doing all that, feel free to just create an issue with your suggestions. We look forward to hearing from you!
 
 ### Recommended apps for Markdown:
 
