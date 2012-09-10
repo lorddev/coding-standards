@@ -10,7 +10,7 @@
             id: accountId,
             location: ipAddress
         };
-    ```` 
+    ```
 
 11. Closing curly braces for anonymous functions should line up with the line in which they were declared. This indentation practice is even more crucial in the days of heavy jQuery usage, as often every single function in a file will be wrapped this way.
 
