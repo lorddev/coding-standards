@@ -17,6 +17,24 @@ JSON provides a nice bridge for understanding JavaScript code blocks in an objec
 ## Import your references
 The `$.cachedScript()` example in [jQuery’s documentation](http://api.jquery.com/jQuery.getScript/) is a great example of how we can make sure our code dependencies are loaded at the top of a file, just as we do so in our C# code.
 
+## Use namespacing as you would in any code library
+
+See [this article](http://addyosmani.com/blog/essential-js-namespacing/) on JavaScript namespacing.
+
+Make use of jQuery's `extend()` function to extend your classes.
+
+    ```javascript
+    var company = company || {};
+    $.extend(true, company, {
+        product: {
+            MyObject: function(input){
+                var _input = input;
+                this.showMe = function() { alert(_input); };
+            }
+        }
+    });
+    ```
+
 ## Make jQuery play nice with ASP.NET IDs
 It seems every year or so, Microsoft decides to arbitrarily change their naming conventions for server-side controls as generated on the client-side. It used to be `parentControl_childControl`, and then it turned into something crazy with dollar signs and numbers, breaking any client-side code you may have used to reference controls by fully-qualified ID.
 
