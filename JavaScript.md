@@ -32,6 +32,9 @@ Make use of jQuery's `extend()` function to extend your classes.
             }
         }
     });
+    
+    var obj = new company.product.MyObject("hello");
+    obj.showMe();
     ```
 ## Make jQuery play nice with ASP.NET IDs
 It seems every year or so, Microsoft decides to arbitrarily change their naming conventions for server-side controls as generated on the client-side. It used to be `parentControl_childControl`, and then it turned into something crazy with dollar signs and numbers, breaking any client-side code you may have used to reference controls by fully-qualified ID.
