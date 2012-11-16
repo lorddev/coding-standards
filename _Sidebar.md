@@ -2,7 +2,7 @@
 - [[Home]]
 
 ## Standards
-- [C#](wiki/C%23-Standards)
+- [[C# Standards]]
 
 ## Practices
 - [[Best Practices]]
