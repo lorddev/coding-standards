@@ -6,6 +6,7 @@
 
 ## Practices
 - [[Best Practices]]
+- [[Best Practices for Website Development]]
 - [[Recommended Practices]]
 - [[JavaScript]]
 
