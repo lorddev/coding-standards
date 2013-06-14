@@ -2,14 +2,16 @@
 - [[Home]]
 
 ## Standards
-- [C#](C%23-Standards)
+- [[C# Standards]]
 
 ## Practices
 - [[Best Practices]]
+- [[Best Practices for Website Development]]
 - [[Recommended Practices]]
+- [[JavaScript]]
 
 ## Style
 - [Introduction](Why-a-Style-Guide-that%27s-not-Project-Specific%3F)
 - [C#](C%23-Style)
-- [[JavaScript]]
+- [[JavaScript Style]]
 - [[ReSharper]]

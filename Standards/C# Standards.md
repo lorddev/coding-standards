@@ -1,4 +1,4 @@
-In many projects, style guides and coding standards are synonymous. In the CSW, however, we aim to differentiate between the two. We designate as “standards” those things which would make code comprehension quite difficult if they weren’t adopted broadly (don’t use Hungarian notation, don’t abbreviate, etc.), and as “style” those things which don’t necessarily made it difficult to understand the code, but would still improve if everyone were on the same page. Recommendations on the use of whitespace would fall in this category.
+In many projects, _style guides_ and _coding standards_ are synonymous. In the CSW, however, we aim to differentiate between the two. We designate as “standards” those things which would make code comprehension quite difficult if they weren’t adopted broadly (don’t use Hungarian notation, don’t abbreviate, etc.), and as “style” those things which don’t necessarily made it difficult to understand the code, but would still improve if everyone were on the same page. Recommendations on the use of whitespace would fall in this category.
 
 ## Naming Conventions
 1. Type names, constants and method names should use Pascal casing.

@@ -1,0 +1,5 @@
+## Progressive Enhancement
+
+The principle of progressive enhancement dictates that a web request should result in a legible document even with a downlevel browser with JavaScript enabled, or a text-based one such as eLinks. This principle is based on the fact that many people are accessing the web with old mobile phones or old hardware, such as schools or libraries, or countries where refurbished electronic devices have greater longevity. The principle also affects SEO and accessibility for the visually-impaired. (And it seems the default settings in Internet Explorer always have a bunch of features disabled.)
+
+This means we should endeavor for Ajax-enabled websites to serve content in the first page response rather than loading the layout and then making an Ajax request for the content. Ajax can still be used for subsequent requests, but hyperlinks should have working urls in the event that JavaScript is disabled.
