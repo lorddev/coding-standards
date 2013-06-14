@@ -3,7 +3,7 @@ Coding Standards
 
 This is an open-source collaborative coding standards wiki intended to support developers who work in multiple languages. There is an emphasis on the coding styles recommended by ReSharper's default settings (that is, without the StyleCop plugin).
 
-The entire project consits of *Markdown* files using GitHub's built-in Wiki format. Files ought to be edited in a text editor in the project's master branch, and when ready to go live will be merged into the wiki repository, which is hosted here an the GitHub [Wiki](https://github.com/lorddev/coding-standards/wiki) tab. (If changes are inadvertently made to the wiki directly by developers with such permissions, please make sure you merge those changes into the project master.)
+The entire project consists of *Markdown* files using GitHub's built-in Wiki format. Files ought to be edited in a text editor in the project's master branch, and when ready to go live will be merged into the wiki repository, which is hosted here an the GitHub [Wiki](https://github.com/lorddev/coding-standards/wiki) tab. (If changes are inadvertently made to the wiki directly by developers with such permissions, please make sure you merge those changes into the project master.)
 
 ### Example cross-repo merging
 In this scenario, the wiki is being pulled into the project's 1.0 branch (which reflects what's live), and then merged into the master branch, which is being used for development.
