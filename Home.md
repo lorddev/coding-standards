@@ -19,5 +19,5 @@ You can either fork and issue pull requests, cloning the [Wiki repository](https
 ### Recommended apps for Markdown:
 
 - Byword (OS X, iOS)
-- SublimeText (OS X, Windows, Linux)
+- Sublime Text 2 (OS X, Windows, Linux. Use this [gist](https://gist.github.com/CrazyApi/2354062) for syntax highlighting) 
 - WriteMonkey (Windows)
