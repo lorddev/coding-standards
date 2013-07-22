@@ -23,6 +23,13 @@ In many projects, _style guides_ and _coding standards_ are synonymous. In the C
       using System.Web.UI.WebControls;
       ```
       2. With the exception of the `Control` class and all objects that inherit from it, only the “I” in `Id` should be capitalized, as it is an _abbreviation_ for “identity” or “identifier” and not an actual acronym.
+11. Do not add redundant or meaningless prefixes and sufixes to identifiers
+      ```c#
+      // BAD!
+      public enum ColorsEnum {…}
+      public class CVehicle {…}
+      public struct RectangleStruct {…}
+      ```
 
 ## Code Formatting
 1. Always use curly braces for conditional statements. Never take the one-liner shortcut, or the one subline shortcut, as they are both vague.
@@ -33,3 +40,8 @@ In many projects, _style guides_ and _coding standards_ are synonymous. In the C
     return isIdSpecified ? id : GetNewId();
     ```
 3. Avoid nested ternary operators.
+4. Never declare more than 1 namespace per file.
+5. Avoid putting multiple classes in a single file.
+6. Declare each variable independently – not in the same statement.
+7. Use inline-comments to explain assumptions, known issues, and algorithm insights.
+8. Do not use inline-comments to explain obvious code. Well written code is self documenting.
