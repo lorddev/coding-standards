@@ -24,12 +24,13 @@ In many projects, _style guides_ and _coding standards_ are synonymous. In the C
       ```
       2. With the exception of the `Control` class and all objects that inherit from it, only the “I” in `Id` should be capitalized, as it is an _abbreviation_ for “identity” or “identifier” and not an actual acronym.
 11. Do not add redundant or meaningless prefixes and sufixes to identifiers
-      ```c#
-      // BAD!
-      public enum ColorsEnum {…}
-      public class CVehicle {…}
-      public struct RectangleStruct {…}
-      ```
+
+    ```c#
+    // BAD!
+    public enum ColorsEnum { ... }
+    public class CVehicle { ... }
+    public struct RectangleStruct { ... }
+    ```
 
 ## Code Formatting
 1. Always use curly braces for conditional statements. Never take the one-liner shortcut, or the one subline shortcut, as they are both vague.
