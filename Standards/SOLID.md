@@ -26,6 +26,6 @@ A subtype ought to be able to be substituted for an object of its parent class w
 
 Interfaces should be small, and only reflect a single particular functionality. For example, if an object can read and write, use an `IReader` interface and an `IWriter` interface, rather than creating an `IReadWrite` interface.
 
-### Depend inversion principle
+### Dependency inversion principle
 
 Depend on abstractions, not concretions. All your hooks to another tier should use interfaces.
